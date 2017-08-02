@@ -20,5 +20,5 @@
   - change dir to new folder, or move files out of folder once cloned
  - type "npm install"
  - If needed, install Gulp.js.  
-  - Type "npm install -g gulp"
+  - Type "npm install -global gulp-cli"
  - Run Gulp.  Type "gulp"
