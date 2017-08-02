@@ -1,12 +1,14 @@
 {
   "name": "Sass_Template",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Stefan build for a SASS Template",
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/TheLennarStore/sass.git"
   },
   "author": "Stefan R Wylie",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-jshint": "^1.9.0",
