@@ -4,8 +4,12 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     webserver = require('gulp-webserver');
 
+gulp.task('default', function(){
+
+})
+
 gulp.task('js', function() {
-  return gulp.src('builds/Master/js/myscript.js')
+  return gulp.src('builds/Master/js/script.js')
     .pipe(jshint('./.jshintrc'))
     .pipe(jshint.reporter('jshint-stylish'));
 });
@@ -35,4 +39,4 @@ gulp.task('webserver', function() {
         }));
 });
 
-gulp.task('default', ['watch', 'sass','webserver']);
+gulp.task('default', ['watch', 'sass', 'js', 'webserver']);
